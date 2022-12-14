@@ -2,6 +2,7 @@
   box-sizing: border-box; }
 
 body {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   color: #222;
   background-color: white;
   margin-left: 240px;
@@ -11,7 +12,6 @@ body {
   display: flex; }
 
 header {
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   height: 28px;
   line-height: 33px;
   margin: auto;
@@ -47,10 +47,14 @@ header {
     position: absolute;
     right: 75px; }
 
-#account-type-section {
+#service-type-section {
   margin-top: 20px; }
-  #account-type-section nav {
+  #service-type-section nav {
     justify-content: space-between;
     align-items: center;
     margin-left: 90px;
     margin-right: 90px; }
+  #service-type-section a {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none; }

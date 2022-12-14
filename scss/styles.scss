@@ -10,6 +10,7 @@ $white: white;
 }
 
 body{
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   color: #222;
     background-color: rgb(255, 255, 255);
     margin-left: 240px;
@@ -19,7 +20,6 @@ body{
     display: flex;
 }
 header{
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
   height: 28px;
   line-height: 33px;
   margin: auto;
@@ -62,12 +62,17 @@ button{
   right: 75px;
 }
 }
-#account-type-section{
+#service-type-section{
   margin-top: 20px;
   nav{
       justify-content: space-between;
       align-items: center;
       margin-left: 90px;
       margin-right: 90px;
+    }
+    a{
+      font-size: 20px;
+    color: #000;
+      text-decoration: none;
     }
   }
