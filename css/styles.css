@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  color: #222;
+  background-color: white;
+  margin-left: 240px;
+  margin-right: 240px; }
+
+.flex {
+  display: flex; }
+
+header {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  height: 28px;
+  line-height: 33px;
+  margin: auto;
+  width: 1440px;
+  background-color: #f2f2f2; }
+  header span {
+    position: absolute;
+    right: 5px; }
+  header a {
+    font-size: 14px;
+    color: #000;
+    margin-right: 20px;
+    text-decoration: none; }
+
+#header-nav {
+  position: relative; }
+  #header-nav:first-child {
+    margin-left: 75px; }
+  #header-nav:last-child {
+    margin-right: 75px; }
+
+.active {
+  border-bottom: 2px solid #000; }
+
+#search-page-section {
+  position: relative;
+  margin-top: 20px; }
+  #search-page-section #bank-image {
+    margin-left: 75px;
+    height: 31px;
+    width: 331px; }
+  #search-page-section button {
+    position: absolute;
+    right: 75px; }
+
+#account-type-section {
+  margin-top: 20px; }
+  #account-type-section nav {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+    margin-right: 90px; }

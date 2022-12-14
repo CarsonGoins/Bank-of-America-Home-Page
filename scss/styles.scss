@@ -1,0 +1,73 @@
+$background: #484D6D;
+$blue: #2C365E;
+$purple: #2B193D;
+$green: #4B8F8C;
+$pink: #C5979D;
+$white: white;
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: #222;
+    background-color: rgb(255, 255, 255);
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.flex{
+    display: flex;
+}
+header{
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  height: 28px;
+  line-height: 33px;
+  margin: auto;
+  width: 1440px;
+  background-color: rgb(242, 242, 242);
+  span{
+    position: absolute;
+    right: 5px;
+  }
+  a{
+    font-size: 14px;
+    color: #000;
+    margin-right: 20px;
+  text-decoration: none;
+}
+}
+
+#header-nav{
+  position: relative;
+  &:first-child{
+    margin-left: 75px;
+  }
+  &:last-child{
+    margin-right: 75px;
+  }
+}
+.active{
+  border-bottom: 2px solid #000;
+}
+#search-page-section{
+  position: relative;
+  margin-top: 20px;
+  #bank-image{
+  margin-left: 75px;
+  height: 31px;
+  width: 331px;
+}
+button{
+  position: absolute;
+  right: 75px;
+}
+}
+#account-type-section{
+  margin-top: 20px;
+  nav{
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+  }
