@@ -100,62 +100,102 @@ position: relative;
       width: 266px;
       height: 40px;
       margin-top: 20px;
-}
-    button{
-      background-color: #dc1431;
-      color: white;
-      border: 1px solid white;
-      font-size: 20px;
-      margin-left: 16px;
-      margin-top: 20px;
-      right: 20px;
-      width: 266px;
-      height: 40px;
-}
-#save-user-id-text{
-  margin-left: 16px;
-  position: relative;
-  width: 266px;
-  height: 30px;
-  margin-top: 20px;
-  vertical-align: middle;
-}
-#save-user-id{
-  margin: 0px;
-  width: 30px;
-  height: 30px;
-}
-#label-save-id {
-  position: absolute;
-  font-size: 14px;
- height: 16px;
- bottom: 5px;
- margin-left: 10px;
-}
-a{
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  margin-left: 16px;
-  line-height: 1.8em;
-  font-family: "cnx-light";
-}
-#enroll-link{
-  position: absolute;
-  right: 45px;
-}
-#open-an-account-link{
-  margin-left: 5px;
-  display:inline-block;
-  width: 288px;
-  height: 39px;
-  line-height: 39px;
-  text-align: center;
-  background-color: #c41230;
-}
   }
+  button{
+    background-color: #dc1431;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 20px;
+    right: 20px;
+    width: 266px;
+    height: 40px;
+  }
+  #save-user-id-text{
+    margin-left: 16px;
+    position: relative;
+    width: 266px;
+    height: 30px;
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+  #save-user-id{
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+  }
+  #label-save-id {
+    position: absolute;
+    font-size: 14px;
+   height: 16px;
+   bottom: 5px;
+   margin-left: 10px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 1.8em;
+    font-family: "cnx-light";
+  }
+  #enroll-link{
+    position: absolute;
+    right: 45px;
+  }
+  #open-an-account-link{
+    margin-left: 5px;
+    display:inline-block;
+    width: 288px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    background-color: #c41230;
+  }
+  }
+  
 #position-container{
   position: relative;
   height: 314px;
   width: 298px;
+}
+#atm-search-schedule-apt-container{
+position: absolute;
+bottom: 45px;
+left: 50px;
+#atm-search{
+  width: 298px;
+  height: 55px;
+  background-color: rgb(0, 115, 207);
+  span{
+    margin-top: 11px;
+    display: inline-block;
+    margin-left: 3px;
+    width: 231px;
+}
+}
+i{
+  margin-left: 16px;
+  font-size: 30px;
+}
+
+a{
+  font-size: 16px;
+  font-family: "cnx-light";
+text-decoration: none;
+color: white;
+}
+&>:last-child{
+  height: 35px;
+  background-color: rgb(0, 82, 194);
+  i{
+    font-size: 20px;
+  }
+  a{
+    margin-left: 3px;
+    margin-top: 9px;
+    display:  inline-block;
+  }
+}
 }

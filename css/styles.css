@@ -130,3 +130,34 @@ header {
   position: relative;
   height: 314px;
   width: 298px; }
+
+#atm-search-schedule-apt-container {
+  position: absolute;
+  bottom: 45px;
+  left: 50px; }
+  #atm-search-schedule-apt-container #atm-search {
+    width: 298px;
+    height: 55px;
+    background-color: #0073cf; }
+    #atm-search-schedule-apt-container #atm-search span {
+      margin-top: 11px;
+      display: inline-block;
+      margin-left: 3px;
+      width: 231px; }
+  #atm-search-schedule-apt-container i {
+    margin-left: 16px;
+    font-size: 30px; }
+  #atm-search-schedule-apt-container a {
+    font-size: 16px;
+    font-family: "cnx-light";
+    text-decoration: none;
+    color: white; }
+  #atm-search-schedule-apt-container > :last-child {
+    height: 35px;
+    background-color: #0052c2; }
+    #atm-search-schedule-apt-container > :last-child i {
+      font-size: 20px; }
+    #atm-search-schedule-apt-container > :last-child a {
+      margin-left: 3px;
+      margin-top: 9px;
+      display: inline-block; }
