@@ -161,3 +161,21 @@ header {
       margin-left: 3px;
       margin-top: 9px;
       display: inline-block; }
+
+#apply-today-container {
+  position: absolute;
+  top: 20px;
+  left: 378px; }
+  #apply-today-container h1 {
+    font-size: 40px; }
+  #apply-today-container h2 {
+    font-size: 20px;
+    margin-top: 20px; }
+  #apply-today-container button {
+    color: white;
+    background-color: #012169;
+    font-family: "cnx-regular",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    margin-top: 38px;
+    width: 144px;
+    height: 38px; }

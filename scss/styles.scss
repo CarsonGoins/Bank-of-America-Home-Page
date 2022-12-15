@@ -199,3 +199,24 @@ color: white;
   }
 }
 }
+#apply-today-container{
+  position: absolute;
+  top: 20px;
+  left: 378px;
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  button{
+    color: white;
+    background-color: rgb(1, 33, 105);
+    font-family: "cnx-regular",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    margin-top: 38px;
+    width: 144px;
+    height: 38px;
+  }
+}
