@@ -179,3 +179,89 @@ header {
     margin-top: 38px;
     width: 144px;
     height: 38px; }
+
+#features-section {
+  margin-top: 5px; }
+  #features-section .col-6 {
+    position: relative;
+    width: 720px;
+    height: 352px; }
+  #features-section #find-credit-card {
+    background-color: white;
+    width: 314px;
+    height: 156px;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    padding: 16px 23px 22px 25px;
+    font-family: "cnx-regular",Arial,Helvetica,sans-serif; }
+    #features-section #find-credit-card div {
+      font-size: 24px;
+      color: #dc1431; }
+    #features-section #find-credit-card p {
+      margin-top: 14px;
+      margin-bottom: 14px;
+      font-size: 14px; }
+    #features-section #find-credit-card a {
+      display: inline-block;
+      text-decoration: none;
+      color: #0052c2;
+      font-size: 16px;
+      margin-top: 20px; }
+    #features-section #find-credit-card i {
+      color: #0052c2; }
+  #features-section #fight-against-hunger-container {
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    background-color: white;
+    width: 314px;
+    height: 200px;
+    padding: 16px 23px 22px 25px; }
+    #features-section #fight-against-hunger-container div {
+      font-size: 24px;
+      color: #dc1431; }
+    #features-section #fight-against-hunger-container p {
+      margin-top: 14px;
+      margin-bottom: 14px;
+      font-size: 14px; }
+    #features-section #fight-against-hunger-container a {
+      display: inline-block;
+      text-decoration: none;
+      color: #0052c2;
+      font-size: 16px;
+      margin-top: 22px; }
+  #features-section #row2-features-section {
+    background-color: #f2f2f2;
+    padding-left: 75px;
+    padding-right: 75px; }
+    #features-section #row2-features-section .col-3 {
+      width: 316.8px;
+      height: 237.78px;
+      padding-top: 10px;
+      padding-left: 35px;
+      padding-right: 25px; }
+      #features-section #row2-features-section .col-3 div {
+        font-size: 24px;
+        color: #dc1431; }
+      #features-section #row2-features-section .col-3 p {
+        color: black;
+        margin-top: 14px;
+        margin-bottom: 14px;
+        font-size: 14px; }
+      #features-section #row2-features-section .col-3 a {
+        display: inline-block;
+        text-decoration: none;
+        color: #0052c2;
+        font-size: 16px;
+        margin-top: 20px; }
+      #features-section #row2-features-section .col-3 img {
+        width: 55px; }
+      #features-section #row2-features-section .col-3 #shield-image {
+        width: 50px;
+        height: 55px; }
+      #features-section #row2-features-section .col-3 #merril-image {
+        width: 152.2px;
+        height: 55px; }
+      #features-section #row2-features-section .col-3 i {
+        color: #0052c2; }

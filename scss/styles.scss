@@ -220,3 +220,110 @@ color: white;
     height: 38px;
   }
 }
+#features-section{
+  margin-top: 5px;
+  .col-6{
+    position: relative;
+    width: 720px;
+    height: 352px;
+}
+#find-credit-card{
+  background-color: white;
+  width: 314px;
+  height: 156px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  padding: 16px 23px 22px 25px;
+  font-family: "cnx-regular",Arial,Helvetica,sans-serif;
+  div{
+    font-size: 24px;
+    color: #dc1431;
+  }
+  p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0052c2;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  i{
+    color: rgb(0, 82, 194);
+  }
+}
+#fight-against-hunger-container{
+  position: absolute;
+  left: 50px;
+  top: 30px;
+  background-color: white;
+  width: 314px;
+  height: 200px;
+  padding: 16px 23px 22px 25px;
+
+  div{
+    font-size: 24px;
+    color: #dc1431;
+  }
+  p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0052c2;
+    font-size: 16px;
+    margin-top: 22px;
+  }
+}
+#row2-features-section{
+  background-color: #f2f2f2;
+  padding-left: 75px;
+  padding-right: 75px;
+  .col-3{
+width: 316.8px;
+height: 237.78px;
+padding-top: 10px;
+padding-left: 35px;
+padding-right: 25px;
+  div{
+    font-size: 24px;
+    color: #dc1431;
+  }
+  p{
+    color: black;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #0052c2;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  img{
+    width: 55px;
+  }
+  #shield-image{
+    width: 50px;
+    height: 55px;
+  }
+  #merril-image{
+    width: 152.2px;
+    height: 55px;
+  }
+  i{
+    color: rgb(0, 82, 194);
+  }
+  }
+
+}
+}
